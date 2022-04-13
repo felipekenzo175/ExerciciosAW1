@@ -83,3 +83,73 @@ f)
     <p>A <abbr title="World Health Organization">WHO</abbr> foi fundada em 1948.</p>
 </body>
 </html>
+Exercícios DW1 Aula 5
+1. <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Quantidade</th>
+            <th>Salgado</th>
+            <th>Preço: Reais</th>
+        </tr>
+        <tr>
+            <th>100</th>
+            <th>Coxinha</th>
+            <td rowspan="4">50</td>
+        </tr>
+        <tr>
+            <th>100</th>
+            <th>Bolinho de Queijo</th>
+        </tr>
+        <tr>
+            <th>100</th>
+            <th>Risóles de Carne</th>
+        </tr>
+        <tr>
+            <th>100</th>
+            <th>Quibe</th>
+        </tr>
+    </table>
+</body>
+</html>
+2.
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend> Informações Pessoais </legend>
+            <p>    
+                <label for="nome_id">Nome: </label>
+                <input type="text" name="nome" id="nome_id" 
+                placeholder="Aline Paixão Bueno" 
+                title="Digite conforme o exemplo">
+            </p>
+            <p>
+                <label for="dataNascimento_id">Data Nascimento: </label>
+                <input type="date" name="dataNascimento" id="dataNascimento_id"
+                placeholder="05/07/2002"
+                title="Digite conforme o exemplo">
+            </p>
+            <p>
+                <label for="sexo_id">Sexo: </label>
+                <input type="text" name="sexo" id="sexo_id"
+                placeholder="">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
