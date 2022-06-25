@@ -1,5 +1,5 @@
 # ExerciciosAW1
-6. 
+1. 
 a)
 <!DOCTYPE html>
 <html lang="pt-br">
